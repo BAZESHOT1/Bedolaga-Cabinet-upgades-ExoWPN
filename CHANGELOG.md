@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0 (2026-07-29)
+
+
+### Features
+
+* улучшен UI дашборда и карточек подписок ([eab996a](https://github.com/BAZESHOT1/Bedolaga-Cabinet-upgades-ExoWPN/commit/eab996a71e2490282b9fc538844594d2a7902ffb))
+
 ## [1.64.0](https://github.com/BEDOLAGA-DEV/bedolaga-cabinet/compare/v1.63.0...v1.64.0) (2026-07-29)
 
 
