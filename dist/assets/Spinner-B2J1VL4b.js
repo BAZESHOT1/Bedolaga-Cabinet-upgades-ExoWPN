@@ -1,0 +1,1 @@
+import{j as a}from"./vendor-react-AgJGJ0jt.js";import{aE as n}from"./index-D7t46nkM.js";import{u as t}from"./vendor-i18n-BWSetEAU.js";function m({className:r}){const{t:o}=t();return a.jsx("div",{role:"status","aria-label":o("common.loading"),className:n("h-8 w-8 animate-spin rounded-full border-2 border-dark-600 border-t-accent-500",r)})}export{m as S};
