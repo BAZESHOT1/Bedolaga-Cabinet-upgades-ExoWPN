@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0 (2026-08-30)
+
+
+### Bug Fixes
+
+* обновление API партнёров и реферальных уровней ([68c53cb](https://github.com/BAZESHOT1/Bedolaga-Cabinet-upgades-ExoWPN/commit/68c53cbb1e0e39dae2fc9a9b33038a0f70247db9))
+* обновление API партнёров и реферальных уровней ([9d21dc5](https://github.com/BAZESHOT1/Bedolaga-Cabinet-upgades-ExoWPN/commit/9d21dc50e6b5cd91d7e4e435a413fccd6d93e6f8))
+
 ## [1.67.0](https://github.com/BEDOLAGA-DEV/bedolaga-cabinet/compare/v1.66.0...v1.67.0) (2026-08-27)
 
 
