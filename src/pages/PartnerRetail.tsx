@@ -521,7 +521,7 @@ export default function PartnerRetail() {
     return password;
   };
 
-  const hasCampaigns = partnerStatus?.campaigns && partnerStatus.campaigns.length >= 2;
+  const hasCampaigns = partnerStatus?.campaigns && partnerStatus.campaigns.length >= 1;
   const isPartner = partnerStatus?.partner_status === 'approved';
 
   useEffect(() => {

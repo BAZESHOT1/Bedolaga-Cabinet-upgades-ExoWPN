@@ -244,7 +244,7 @@ export default function Referral() {
   const showApprovedSection = partnerStatusValue === 'approved';
   const showRejectedSection = partnerStatusValue === 'rejected';
   // Проверяем наличие 2+ кампаний (как на странице розницы)
-  const hasCampaigns = partnerStatus?.campaigns && partnerStatus.campaigns.length >= 2;
+  const hasCampaigns = partnerStatus?.campaigns && partnerStatus.campaigns.length >= 1;
 
   return (
     <div className="space-y-6">

@@ -17,12 +17,11 @@ import SubscriptionCardExpired from '../components/dashboard/SubscriptionCardExp
 import TrialOfferCard from '../components/dashboard/TrialOfferCard';
 import StatsGrid from '../components/dashboard/StatsGrid';
 import { giftApi } from '../api/gift';
-import { promoApi } from '../api/promo';
 import PendingGiftCard from '../components/dashboard/PendingGiftCard';
 import SubscriptionListCard from '../components/subscription/SubscriptionListCard';
 import { DeviceLimitSheet } from '../components/subscription/DeviceLimitSheet';
 import { API } from '../config/constants';
-import { ChevronRightIcon, StarIcon } from '@/components/icons';
+import { ChevronRightIcon } from '@/components/icons';
 import { Skeleton, SkeletonGroup } from '@/components/ui/skeleton';
 import { safeLocal } from '../utils/safeStorage';
 import ServersStatus from '../components/dashboard/ServersStatus';
@@ -131,12 +130,6 @@ export default function Dashboard() {
     retry: false,
   });
 
-  const { data: promoGroupData } = useQuery({
-    queryKey: ['promo-group-discounts'],
-    queryFn: promoApi.getGroupDiscounts,
-    staleTime: 60_000,
-    retry: false,
-  });
 
   const activateTrialMutation = useMutation({
     mutationFn: () => subscriptionApi.activateTrial(),
@@ -294,20 +287,7 @@ export default function Dashboard() {
           {userName ? t('dashboard.welcome', { name: userName }) : t('dashboard.welcomeNoName')}
         </h1>
         <div className="mt-1 flex flex-wrap items-center gap-2">
-          <p className="text-dark-400">{t('dashboard.yourSubscription')}</p>
-          {promoGroupData?.group_name && (
-            <span
-              className="inline-flex max-w-[160px] items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] font-semibold"
-              style={{
-                background: 'rgba(var(--color-accent-400), 0.1)',
-                border: '1px solid rgba(var(--color-accent-400), 0.2)',
-                color: 'rgb(var(--color-accent-400))',
-              }}
-            >
-              <StarIcon filled className="h-2.5 w-2.5 shrink-0" />
-              <span className="truncate">{promoGroupData.group_name}</span>
-            </span>
-          )}
+          <p className="text-dark-100">{t('dashboard.yourSubscription')}:</p>
         </div>
       </div>
 
