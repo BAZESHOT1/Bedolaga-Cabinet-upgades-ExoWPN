@@ -1,0 +1,1 @@
+import{t as s,j as e,N as o}from"./vendor-react-C3qFgPUA.js";import{a as t}from"./deepLink-Cl6ChsXK.js";function n(){const[r]=s(),a=r.toString();return e.jsx(o,{to:a?`${t}?${a}`:t,replace:!0})}export{n as default};

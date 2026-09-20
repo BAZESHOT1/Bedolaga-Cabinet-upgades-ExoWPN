@@ -1,0 +1,1 @@
+import{t as r,j as e,N as s}from"./vendor-react-C3qFgPUA.js";import{a as i}from"./deepLink-Cl6ChsXK.js";function m(){const[t]=r(),a=new URLSearchParams(t);return a.has("kind")||a.set("kind","ip"),e.jsx(s,{to:`${i}?${a.toString()}`,replace:!0})}export{m as default};
