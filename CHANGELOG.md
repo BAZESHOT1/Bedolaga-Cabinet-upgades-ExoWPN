@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 (2026-09-20)
+
+
+### Bug Fixes
+
+* **referral:** restore retail route and button after migration ([3b65997](https://github.com/BAZESHOT1/Bedolaga-Cabinet-upgades-ExoWPN/commit/3b65997835929cdf43bf0d312ed29b84b4a328ec))
+* **referral:** restore retail route and button after migration ([a8da35c](https://github.com/BAZESHOT1/Bedolaga-Cabinet-upgades-ExoWPN/commit/a8da35c5419768786d4c784c526826a4a6b20a26))
+* **referral:** restore retail route and button after migration ([eb359dc](https://github.com/BAZESHOT1/Bedolaga-Cabinet-upgades-ExoWPN/commit/eb359dc9195b383943b452fa08702347d53eca3d))
+
 ## [1.78.0](https://github.com/BEDOLAGA-DEV/bedolaga-cabinet/compare/v1.77.0...v1.78.0) (2026-09-18)
 
 
